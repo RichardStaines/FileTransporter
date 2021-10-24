@@ -1,4 +1,5 @@
 import configparser
+from datetime import datetime
 import socket
 import logging
 
@@ -13,10 +14,11 @@ class ConfigFile:
         self.config.read(filename)
         self.hostname = socket.gethostname()
 
-        logfile = self.read_setting('LogFile', 'Logging', False)
+        logfile = self.read_setting('LogFile', 'Logging', False) + datetime.now().strftime('-%Y%m%d.log')
+
         loglevel = self.read_setting('LogLevel', 'Logging', False)
         logging.basicConfig(format='%(asctime)s\t%(levelname)s\t%(message)s',
-                            filename=logfile, encoding='utf-8', level=loglevel, filemode="w+")
+                            filename=logfile, encoding='utf-8', level=loglevel, filemode="a+")
         logging.info(f'Logging Level: {loglevel}')
 
     def read_setting(self, setting_name, section='Main', log_it=True):
