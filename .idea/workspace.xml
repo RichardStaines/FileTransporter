@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="82492c1f-ce03-4ff3-84f0-e3544afa5599" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aws_ec2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/ConfigFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTransporter.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileTransporter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepeatedTimer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/RepeatedTimer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aws_ec2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/aws_ec2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +28,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ConfigFile.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Utils/ConfigFile.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1zk4BCKSBfF1Vuv4A8xjFmo4ZpZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -32,6 +42,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PyUtils" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\python-projects\FileTransporter\Utils" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.FileTransporter">
     <configuration name="FileTransporter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -67,7 +84,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RepeatedTimer.py" />
+      <option name="SCRIPT_NAME" value="C:\python-projects\FileTransporter\Utils\RepeatedTimer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,24 +125,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/RepeatedTimer.py</url>
+          <url>file://$PROJECT_DIR$/Utils/RepeatedTimer.py</url>
           <line>26</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FileTransporter.py</url>
-          <line>83</line>
+          <line>37</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/FileTransporter.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/../../Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0/Lib/ftplib.py</url>
@@ -134,12 +147,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FileTransporter.py</url>
-          <line>97</line>
+          <line>51</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/FileTransporter.py</url>
-          <line>99</line>
+          <line>53</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
